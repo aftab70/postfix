@@ -56,3 +56,10 @@ sudo /etc/init.d/postfix reload
 #If you have configured everything correctly, following command should generate a test mail from your server to your mailbox.
 
 echo "Test mail from postfix" | mail -s "Test Postfix" you@example.com
+
+# get your mail commads path by using the follwoing cli..
+
+which mail
+
+You should get output like this - /usr/bin/mail 
+
